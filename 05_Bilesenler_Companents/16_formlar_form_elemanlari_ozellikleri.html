@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <style type="text/css">
+
+  </style>
+  <title>Formlar ve Form Elemanları Özelliği</title>
+</head>
+<body>
+
+
+  <div class="container">
+
+    <h1>Formlar ve Form Elemanları Özelliği</h1>
+    <hr>
+
+    <form>
+      <div class="form-group">
+        <input type="text" class="form-control" name="">
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-control" name="">
+      </div>
+      <div class="form-group">
+        <select class="form-control">
+          <option>Kurs 1</option>
+          <option>Kurs 2</option>
+          <option>Kurs 3</option>
+          <option>Kurs 4</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <select class="form-control" multiple="multiple">
+          <option>Kurs 1</option>
+          <option>Kurs 2</option>
+          <option>Kurs 3</option>
+          <option>Kurs 4</option>
+          <option>Kurs 5</option>
+          <option>Kurs 6</option>
+          <option>Kurs 7</option>
+          <option>Kurs 8</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="10"></textarea>
+      </div>
+
+      <div class="form-group">
+        <input type="file" name="">
+      </div>
+
+      <div class="form-group">
+        <input type="text" readonly="readonly" class="form-control" value="Bu giriş kapalıdır" name="">
+      </div>
+
+      <div class="form-group">
+        <input type="text" readonly="readonly" class="form-control-plaintext" value="Bu giriş kapalıdır" name="">
+      </div>
+
+      <div class="form-group">
+        <input type="text" disabled="disabled" 
+        class="form-control" value="Bu giriş kapalıdır" name="">
+      </div>
+
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name=""> Elma
+        </label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name=""> Armut
+        </label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name=""> Üzüm
+        </label>
+      </div>
+
+
+
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name=""> Elma
+        </label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name=""> Armut
+        </label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name=""> Üzüm
+        </label>
+      </div>
+
+      <br>
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name=""> Bu checkbox seçilebilir.
+        </label>
+      </div>
+
+      <br>
+
+      <fieldset disabled>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" disabled>
+            <label class="form-check-label">
+              Bu checkbox seçilemez.
+            </label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset disabled>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" disabled>
+            <label class="form-check-label">
+              Bu radio seçilemez.
+            </label>
+          </div>
+        </div>
+      </fieldset>
+
+      <br>
+
+      <div class="form-group">
+        <input type="text" class="form-control is-valid" name="">
+      </div>
+
+      <div class="form-group">
+        <input type="text" class="form-control is-invalid" name="">
+      </div>
+
+    </form>
+
+
+
+    <form id="needs-validation" novalidate>
+      <input type="text" class="form-control" name="" required placeholder="adınızı girin">
+        <br>
+      <input type="text" class="form-control" name="" required placeholder="soyadınızı girin">
+
+      <button type="submit" class="btn btn-success">Formu Gönder</button>
+
+    </form>
+
+
+
+
+
+  </div>
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  <script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  "use strict";
+  window.addEventListener("load", function() {
+    var form = document.getElementById("needs-validation");
+    form.addEventListener("submit", function(event) {
+      if (form.checkValidity() == false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add("was-validated");
+    }, false);
+  }, false);
+}());
+</script>
+
+
+</body>
+</html>

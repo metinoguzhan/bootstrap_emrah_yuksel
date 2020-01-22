@@ -1,0 +1,98 @@
+.ustmenu{
+	font-size: 14px;
+	font-family: Tahoma;
+
+}
+
+.search-icon{
+	margin-left: -25px;
+}
+
+.logo-hizala{
+	margin-top: -20px;
+}
+
+
+.card-img-overlay-text {
+	position: relative;
+	margin-top: 220px;
+}
+
+.card-img-overlay-text-sag {
+	position: relative;
+	margin-top: 70px;
+}
+
+.card-img-overlay-text-sag a {
+	text-decoration: none !important;
+}
+
+.card-img-icon{
+	position: absolute;
+	width: 40px;
+	margin-left: -15px;
+	margin-top: -15px;
+}
+
+.card-img-overlay-text a{
+	text-decoration: none !important;
+}
+
+.card{
+	margin-left: -20px;
+	max-height: 250px !important;
+}
+
+.card-ust-sag{
+	min-height: 142px;
+}
+
+
+.galeri-aralik{
+	margin-top:60px; 
+}
+
+.breadcrumb-item{
+	font-size: 12px !important;
+}
+
+@media (max-width: 576px){
+
+	.card-img-overlay{
+
+		margin-top: 110px;
+	}
+
+	.card-img-overlay p {
+
+		display: none;
+	}
+
+	.card{
+	margin-left: 0px;
+	max-height: 490px !important;
+	}
+
+	.card-img{
+		margin-top: 10px !important;
+		height: 190px;
+	}
+
+	.card-img-left{
+		width: 100% !important;
+		height: 190px;
+		margin: 20px; 
+	}
+
+	.galeriler{
+		margin-top: 30px;
+	}
+
+	.card-img-icon{
+	position: absolute;
+	width: 40px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+}
